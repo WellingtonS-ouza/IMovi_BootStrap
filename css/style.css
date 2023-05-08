@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Lato', sans-serif;
 }
 
@@ -6,18 +6,21 @@
     background-color: #fff;
 
 }
+
 .bg-secondary-color {
     background-color: #ece8ea;
 }
+
 .bg-dark-color {
     background-color: #050505;
 }
 
 .primary-color {
-  color:#050505 ;  
+    color: #050505;
 }
+
 .bg-secondary-color {
-    color:#7a7a7a
+    color: #7a7a7a
 }
 
 /* Navbar */
@@ -25,20 +28,20 @@
     border-bottom: 1px solid #7a7a7a;
 }
 
-#navbar  a:hover{
-    color:#7a7a7a ;
+#navbar a:hover {
+    color: #7a7a7a;
 }
 
-#navbar  a.active {
+#navbar a.active {
     border-bottom: 1px solid #050505;
 }
 
-.navbar-brand  {
+.navbar-brand {
     display: flex;
 }
 
 .navbar-brand img {
-width: 40px;
+    width: 40px;
 
 }
 
@@ -55,14 +58,14 @@ width: 40px;
 }
 
 #navbar-items .nav-item {
-margin: 0 1em;
+    margin: 0 1em;
 }
 
 /* Slider */
 
 #slider {
     margin-top: 8em;
-    margin-bottom: 1em ;
+    margin-bottom: 1em;
 }
 
 #slider .carousel-caption {
@@ -84,27 +87,28 @@ margin: 0 1em;
     margin-top: 1em;
 }
 
-.carousel-control-prev-icon , 
-.carousel-control-prev-icon   {
+.carousel-control-prev-icon,
+.carousel-control-prev-icon {
     color: #111;
     font-size: 3em;
 }
 
 .carousel-indicators [data-bs-target] {
-background-color: #222;
-opacity: .8;
+    background-color: #222;
+    opacity: .8;
 }
 
 .carousel-indicators .active {
     background-color: #000;
-    
-    }
+
+}
 
 @media (min-width: 768px) {
     #slider .carousel-caption {
         bottom: 15em;
-     
+
     }
+
     #slider .carousel-caption h5 {
         font-size: 4em;
         text-shadow: #000 2px 3px;
@@ -113,10 +117,41 @@ opacity: .8;
     #slider .btn {
         padding: 0.6 1.6em;
         font-size: 1.2em;
-        
+
     }
 
     .carousel-indicators {
         bottom: 7em;
+    }
+}
+
+/* Mini-banners */
+
+#mini-banners {
+    margin-bottom: 4em;
+}
+
+#mini-banners .card {
+    padding: 2em .3em;
+    border-radius: 0;
+}
+
+#mini-banners i {
+    font-size: 4em;
+}
+
+#mini-banners .card-title {
+    margin-bottom: 1.5em;
+}
+
+#mini-banner .btn {
+    margin-top: 1.5em;
+    padding: .6em 1.2em;
+}
+
+
+@media (min-width: 768px) {
+    #mini-banners {
+        margin-top: -6em;
     }
 }
